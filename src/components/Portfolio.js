@@ -63,10 +63,10 @@ const Portfolio = () => {
     <Fragment>
       <ImageView />
       <ModalVideo
-        channel="vimeo"
+        channel="youtube"
         autoplay
         isOpen={isOpen2}
-        videoId="337293658"
+        videoId="TmwxKBkYk0I"
         animationSpeed={300}
         onClose={() => setIsOpen2(false)}
         modalVideoClose="mfp-close"
@@ -75,7 +75,7 @@ const Portfolio = () => {
         channel="youtube"
         autoplay={true}
         isOpen={isOpen}
-        videoId="7e90gBu4pas"
+        videoId="zTFCeq2H3UY"
         animationSpeed={300}
         onClose={() => setIsOpen(false)}
         modalVideoClose="mfp-close"
@@ -119,7 +119,7 @@ const Portfolio = () => {
                     data-filter=".youtube"
                     onClick={handleFilterKeyChange("youtube")}
                   >
-                    Youtube
+                    Adverts
                   </a>
                 </li>
                 <li className="mr-[40px] inline-block">
@@ -166,13 +166,13 @@ const Portfolio = () => {
                       />
                       <div
                         className="main absolute inset-0 bg-no-repeat bg-cover bg-center"
-                        data-img-url="assets/img/portfolio/1.jpg"
+                        data-img-url="assets/img/portfolio/ooredoo.jpg"
                       />
                       <div className="details">
                         <h3 className="text-[16px] mb-[2px] font-semibold">
-                          Ave Brook
+                          Ooredoo
                         </h3>
-                        <span className="text-[14px]">Youtube</span>
+                        <span className="text-[14px]">Adverts</span>
                       </div>
                       <a
                         onClick={() => setIsOpen(true)}
@@ -182,7 +182,7 @@ const Portfolio = () => {
                     </div>
                   </div>
                 </li>
-                <li className="vimeo mb-[50px] w-1/2 float-left pl-[50px] item__">
+                <li className="youtube mb-[50px] w-1/2 float-left pl-[50px] item__">
                   <div className="list_inner w-full h-auto clear-both float-left relative overflow-hidden">
                     <div className="image relative">
                       <img
@@ -197,9 +197,9 @@ const Portfolio = () => {
                       />
                       <div className="details">
                         <h3 className="text-[16px] mb-[2px] font-semibold">
-                          Kelly Hookin
+                          Baladna
                         </h3>
-                        <span className="text-[14px]">Vimeo</span>
+                        <span className="text-[14px]">Adverts</span>
                       </div>
                       <a
                         className="cavani_tm_full_link popup-vimeo"
