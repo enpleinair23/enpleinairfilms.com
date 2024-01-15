@@ -20,13 +20,11 @@ const Header = () => {
   return (
     <Fragment>
       <div className="cavani_tm_topbar fixed top-0 left-0 right-0 h-[50px] bg-white z-[15] hidden middle:block">
-        <div className="topbar_inner w-full h-full clear-both flex items-center justify-between py-0 px-[20px]">
+        <div className="topbar_inner w-full h-full clear-both flex items-center justify-between py-0 px-[30px]">
           <div className="logo" data-type="image">
-            {" "}
-            {/* You can use text or image as logo. data-type values are: "image" and "text"  */}
             <a className="image" href="#">
               <img
-                className="max-w-[100px] max-h-[40px]"
+                className=""
                 src="assets/img/logo/dark.png"
                 alt="image"
               />
@@ -59,8 +57,12 @@ const Header = () => {
       >
         <div className="inner relative w-full h-full text-right px-[20px] pt-[70px] pb-[20px]">
           <div className="wrapper">
-            <div className="avatar w-[70px] h-[70px] relative float-right mb-[60px]">
-
+            <div className="avatar relative float-right mb-[60px]">
+            <img
+                className=""
+                src="assets/img/logo/logo.png"
+                alt="image"
+              />
 
             </div>
             <div className="menu_list w-full h-auto clear-both float-left mb-[50px]">
@@ -125,20 +127,12 @@ const Header = () => {
       </div>
       <div className="cavani_tm_header fixed top-0 left-0 right-0 h-[70px] leading-[70px] bg-white z-[10] flex items-center justify-between py-0 px-[70px] middle:hidden">
         <div className="logo" data-type="image">
-          {" "}
-          {/* You can use text or image as logo. data-type values are: "image" and "text"  */}
           <a className="image" href="#">
             <img
-              className="max-w-[110px] max-h-[65px] inline-block"
+              className=""
               src="assets/img/logo/dark.png"
               alt="image"
             />
-          </a>
-          <a
-            className="text no-underline text-black uppercase font-poppins text-[25px] font-extrabold tracking-[2px] leading-[70px]"
-            href="#"
-          >
-            <span className="relative top-[2px]">Cavani</span>
           </a>
         </div>
         <div className="menu relative">
