@@ -229,7 +229,7 @@ const Portfolio = () => {
                       />
                       <div
                         className="main absolute inset-0 bg-no-repeat bg-cover bg-center"
-                        data-img-url="assets/img/portfolio/ooredoo.jpg"
+                        data-img-url="assets/img/portfolio/invest.jpg"
                       />
                       <div className="details">
                         <h3 className="text-[16px] mb-[2px] font-semibold">
@@ -255,7 +255,7 @@ const Portfolio = () => {
                       />
                       <div
                         className="main absolute inset-0 bg-no-repeat bg-cover bg-center"
-                        data-img-url="assets/img/portfolio/ooredoo.jpg"
+                        data-img-url="assets/img/portfolio/tasmu.jpg"
                       />
                       <div className="details">
                         <h3 className="text-[16px] mb-[2px] font-semibold">
@@ -297,31 +297,6 @@ const Portfolio = () => {
                     </div>
                   </div>
                 </li>
-                <li className="image mb-[50px] w-1/2 float-left pl-[50px] item__">
-                  <div className="list_inner w-full h-auto clear-both float-left relative overflow-hidden">
-                    <div className="image relative">
-                      <img
-                        className="relative opacity-0 min-w-full"
-                        src="assets/img/thumbs/1-1.jpg"
-                        alt
-                      />
-                      <div
-                        className="main absolute inset-0 bg-no-repeat bg-cover bg-center"
-                        data-img-url="assets/img/portfolio/5.jpg"
-                      />
-                      <div className="details">
-                        <h3 className="text-[16px] mb-[2px] font-semibold">
-                          Fele Sweet
-                        </h3>
-                        <span className="text-[14px]">Image</span>
-                      </div>
-                      <a
-                        className="cavani_tm_full_link zoom"
-                        href="assets/img/portfolio/5.jpg"
-                      />
-                    </div>
-                  </div>
-                </li>
                 <li className="detail mb-[50px] w-1/2 float-left pl-[50px] item__">
                   <div className="list_inner w-full h-auto clear-both float-left relative overflow-hidden">
                     <div className="image relative">
@@ -336,9 +311,9 @@ const Portfolio = () => {
                       />
                       <div className="details">
                         <h3 className="text-[16px] mb-[2px] font-semibold">
-                          Alice Moon
+                          On The Farm
                         </h3>
-                        <span className="text-[14px]">Detail</span>
+                        <span className="text-[14px]">Colour Grading</span>
                       </div>
                       <a
                         className="cavani_tm_full_link portfolio_popup"
