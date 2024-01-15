@@ -29,9 +29,11 @@ const Home = () => {
     <SectionContainer navName="home">
       <div className="cavani_tm_home relative w-full h-full flex items-center">
         <div className="content pl-[100px]">
-          <h3 className="name text-[90px] font-bold uppercase mb-[30px]">
-            EN PLEIN AIR®
-          </h3>
+          <img
+                className=""
+                src="assets/img/logo/logo.png"
+                alt="image"
+              />
           <span className="line inline-block w-[70px] h-[5px] bg-[#333] mb-[30px]" />
           <TypingAnimation />
           <div className="cavani_tm_button transition_link">

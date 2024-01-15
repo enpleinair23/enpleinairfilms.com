@@ -25,7 +25,7 @@ const Header = () => {
             <a className="image" href="#">
               <img
                 className=""
-                src="assets/img/logo/dark.png"
+                src="assets/img/logo/logo.png"
                 alt="image"
               />
             </a>
@@ -130,7 +130,7 @@ const Header = () => {
           <a className="image" href="#">
             <img
               className=""
-              src="assets/img/logo/dark.png"
+              src="assets/img/logo/logo.png"
               alt="image"
             />
           </a>
