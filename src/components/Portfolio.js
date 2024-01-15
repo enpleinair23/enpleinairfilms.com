@@ -95,7 +95,7 @@ const Portfolio = () => {
         channel="youtube"
         autoplay
         isOpen={isOpen6}
-        videoId="TmwxKBkYk0I"
+        videoId="yFdeOxwD0mI&t=42s"
         animationSpeed={300}
         onClose={() => setIsOpen6(false)}
         modalVideoClose="mfp-close"
@@ -375,15 +375,6 @@ const Portfolio = () => {
                                     <a className="text-[#7d7789]" href="#">
                                       <img
                                         className="svg"
-                                        src="assets/img/svg/social/facebook.svg"
-                                        alt
-                                      />
-                                    </a>
-                                  </li>
-                                  <li className="mr-[13px] inline-block">
-                                    <a className="text-[#7d7789]" href="#">
-                                      <img
-                                        className="svg"
                                         src="assets/img/svg/social/twitter.svg"
                                         alt
                                       />
@@ -394,6 +385,15 @@ const Portfolio = () => {
                                       <img
                                         className="svg"
                                         src="assets/img/svg/social/instagram.svg"
+                                        alt
+                                      />
+                                    </a>
+                                  </li>
+                                  <li className="mr-[13px] inline-block">
+                                    <a className="text-[#7d7789]" href="#">
+                                      <img
+                                        className="svg"
+                                        src="assets/img/svg/social/youtube.svg"
                                         alt
                                       />
                                     </a>
