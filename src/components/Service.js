@@ -10,50 +10,37 @@ const Service = () => {
 
   const services = [
     {
-      img: "assets/img/news/1.jpg",
-      icon: "assets/img/svg/3d.svg",
-      text: "Developing website involves creating your website, making it one of the most vital parts of your marketing",
-      date: "August 9, 2021",
-      title: "3D Animation",
-      text1:
-        "Cavani is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      text2:
-        "In today's digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user's first impression relates to web design. It's also why web design services can have an immense impact on your company's bottom line.",
-      text3:
-        "That's why more companies are not only reevaluating their website's design but also partnering with Kura, the web design agency that's driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
-    },
-    {
       img: "assets/img/news/2.jpg",
       icon: "assets/img/svg/play.svg",
-      text: "Developing website involves creating your website, making it one of the most vital parts of your marketing",
+      text: "Using technical skills and creativity to transform raw footage into a compelling and professional-looking final product",
       date: "August 9, 2021",
-      title: "Explainer Videos",
+      title: "Video Editing",
       text1:
-        "Cavani is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
+        "Video editing is the creative and technical process of manipulating raw video footage to produce a polished and visually cohesive final product. This process involves various stages, from organizing and selecting clips to applying effects and fine-tuning audio.",
       text2:
-        "In today's digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user's first impression relates to web design. It's also why web design services can have an immense impact on your company's bottom line.",
+        "Beginning with the importation of video clips into specialized editing software, the editor meticulously organizes the material into a logical sequence on a timeline. Cutting and trimming then ensue, refining the content by removing unnecessary elements and ensuring a smooth and engaging flow.",
       text3:
-        "That's why more companies are not only reevaluating their website's design but also partnering with Kura, the web design agency that's driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+        "Video editing is an art form that combines technical proficiency with creative expression, resulting in a polished and compelling visual piece ready for sharing on various platforms.",
     },
     {
-      img: "assets/img/news/3.jpg",
-      icon: "assets/img/svg/character.svg",
-      text: "Developing website involves creating your website, making it one of the most vital parts of your marketing",
+      img: "assets/img/news/1.jpg",
+      icon: "assets/img/svg/3d.svg",
+      text: "A powerful and artistic aspect of video editing that plays a pivotal role in shaping the overall visual identity of a video",
       date: "August 9, 2021",
-      title: "App Development",
+      title: "Colour Grading",
       text1:
-        "Cavani is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
+        "Colour grading is a crucial step in the video editing process that involves the adjustment and enhancement of the colour and tone of a video to achieve a desired visual style or mood.",
       text2:
-        "In today's digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user's first impression relates to web design. It's also why web design services can have an immense impact on your company's bottom line.",
+        "The primary goals of colour grading include achieving visual consistency across different scenes, correcting any colour imbalances introduced during filming, and enhancing the overall aesthetic appeal of the video.",
       text3:
-        "That's why more companies are not only reevaluating their website's design but also partnering with Kura, the web design agency that's driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+        "Colour grading often involves working with colour wheels, curves, and sliders to fine-tune the shadows, midtones, and highlights of the video. It allows for the isolation and adjustment of specific colours within the frame, enabling editors to emphasize certain elements or create visual focal points.",
     },
     {
-      img: "assets/img/news/4.jpg",
-      icon: "assets/img/svg/edu.svg",
+      img: "assets/img/news/6.jpg",
+      icon: "assets/img/svg/presentation.svg",
       text: "Developing website involves creating your website, making it one of the most vital parts of your marketing",
       date: "August 9, 2021",
-      title: "Educational Video",
+      title: "Motion Graphics",
       text1:
         "Cavani is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
       text2:
@@ -67,19 +54,6 @@ const Service = () => {
       text: "Developing website involves creating your website, making it one of the most vital parts of your marketing",
       date: "August 9, 2021",
       title: "3D Game Art",
-      text1:
-        "Cavani is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      text2:
-        "In today's digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user's first impression relates to web design. It's also why web design services can have an immense impact on your company's bottom line.",
-      text3:
-        "That's why more companies are not only reevaluating their website's design but also partnering with Kura, the web design agency that's driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
-    },
-    {
-      img: "assets/img/news/6.jpg",
-      icon: "assets/img/svg/presentation.svg",
-      text: "Developing website involves creating your website, making it one of the most vital parts of your marketing",
-      date: "August 9, 2021",
-      title: "Presentations",
       text1:
         "Cavani is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
       text2:

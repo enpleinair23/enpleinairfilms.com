@@ -60,10 +60,8 @@ const Header = () => {
         <div className="inner relative w-full h-full text-right px-[20px] pt-[70px] pb-[20px]">
           <div className="wrapper">
             <div className="avatar w-[70px] h-[70px] relative float-right mb-[60px]">
-              <div
-                className="image absolute inset-0 bg-no-repeat bg-cover bg-center"
-                data-img-url="assets/img/about/1.jpg"
-              />
+
+
             </div>
             <div className="menu_list w-full h-auto clear-both float-left mb-[50px]">
               <ul className="transition_link">
