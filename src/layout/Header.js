@@ -6,12 +6,12 @@ import "swiper/css/scrollbar";
 import { CavaniContext } from "../Context";
 
 const navs = [
-  { id: 1, name: "Home", href: "home" },
-  { id: 2, name: "About", href: "about" },
-  { id: 3, name: "Portfolio", href: "portfolio" },
-  { id: 4, name: "Service", href: "service" },
-  { id: 5, name: "News", href: "news" },
-  { id: 6, name: "Contact", href: "contact" },
+  { id: 1, name: "HOME", href: "home" },
+  { id: 3, name: "PORTFOLIO", href: "portfolio" },
+  { id: 4, name: "SERVICES", href: "service" },
+  { id: 5, name: "BLOG", href: "news" },
+  { id: 2, name: "ABOUT", href: "about" },
+  { id: 6, name: "CONTACT", href: "contact" },
 ];
 
 const Header = () => {
@@ -94,15 +94,6 @@ const Header = () => {
                   <a className="text-[#333]" href="#">
                     <img
                       className="svg"
-                      src="assets/img/svg/social/facebook.svg"
-                      alt="image"
-                    />
-                  </a>
-                </li>
-                <li className="mr-[8px] inline-block">
-                  <a className="text-[#333]" href="#">
-                    <img
-                      className="svg"
                       src="assets/img/svg/social/twitter.svg"
                       alt="image"
                     />
@@ -117,20 +108,11 @@ const Header = () => {
                     />
                   </a>
                 </li>
-                <li className="mr-[8px] inline-block">
-                  <a className="text-[#333]" href="#">
-                    <img
-                      className="svg"
-                      src="assets/img/svg/social/dribbble.svg"
-                      alt="image"
-                    />
-                  </a>
-                </li>
                 <li className="inline-block">
                   <a className="text-[#333]" href="#">
                     <img
                       className="svg"
-                      src="assets/img/svg/social/tik-tok.svg"
+                      src="assets/img/svg/social/youtube.svg"
                       alt="image"
                     />
                   </a>
@@ -138,7 +120,7 @@ const Header = () => {
               </ul>
             </div>
             <div className="copyright w-full float-left">
-              <p className="text-[#333] font-poppins">Copyright © 2023</p>
+              <p className="text-[#333] font-poppins">Copyright © 2021</p>
             </div>
           </div>
         </div>

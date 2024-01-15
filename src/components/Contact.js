@@ -6,7 +6,7 @@ const Contact = () => {
         <div className="cavani_tm_contact w-full h-auto clear-both float-left mb-[100px]">
           <div className="cavani_tm_title w-full h-auto clear-both float-left overflow-hidden">
             <span className="inline-block relative font-poppins text-[#333] uppercase font-bold tracking-[8px]">
-              Get in Touch
+              Contact
             </span>
           </div>
           <div className="short_info w-full h-auto clear-both float-left mt-[62px]">
@@ -18,7 +18,7 @@ const Contact = () => {
                     src="assets/img/svg/location.svg"
                     alt="image"
                   />
-                  <span className="block">Ave Street, New York, USA</span>
+                  <span className="block">North Street, Bristol, UK</span>
                 </div>
               </li>
               <li className="mb-[30px] w-1/3 pl-[30px]">
@@ -33,7 +33,7 @@ const Contact = () => {
                       className="text-[#7d7789] transition-all duration-300 hover:text-[#333]"
                       href="#"
                     >
-                      hello@cavani.com
+                      contact@enpleinairfilms.com
                     </a>
                   </span>
                 </div>
@@ -45,7 +45,7 @@ const Contact = () => {
                     src="assets/img/svg/call.svg"
                     alt="image"
                   />
-                  <span className="block">+77 022 444 05 05</span>
+                  <span className="block">+44 7585 445056</span>
                 </div>
               </li>
             </ul>
@@ -110,7 +110,7 @@ const Contact = () => {
                       width="100%"
                       height={355}
                       id="gmap_canvas"
-                      src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.9584622064945!2d-2.6132799241384737!3d51.44055671558533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718c32fbfe1749%3A0xa3add59e9f04ba8f!2sNorth%20St%2C%20Bristol!5e0!3m2!1sen!2suk!4v1705339229446!5m2!1sen!2suk"
                       frameBorder={0}
                       scrolling="no"
                       marginHeight={0}

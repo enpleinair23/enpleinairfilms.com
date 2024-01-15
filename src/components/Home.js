@@ -29,8 +29,8 @@ const Home = () => {
     <SectionContainer navName="home">
       <div className="cavani_tm_home relative w-full h-full flex items-center">
         <div className="content pl-[100px]">
-          <h3 className="name text-[72px] font-bold uppercase mb-[30px]">
-            Alan Walker
+          <h3 className="name text-[90px] font-bold uppercase mb-[30px]">
+            EN PLEIN AIR®
           </h3>
           <span className="line inline-block w-[70px] h-[5px] bg-[#333] mb-[30px]" />
           <TypingAnimation />
