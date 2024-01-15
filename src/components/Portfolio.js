@@ -95,7 +95,7 @@ const Portfolio = () => {
         channel="youtube"
         autoplay
         isOpen={isOpen6}
-        videoId="yFdeOxwD0mI&t=42s"
+        videoId="yFdeOxwD0mI"
         animationSpeed={300}
         onClose={() => setIsOpen6(false)}
         modalVideoClose="mfp-close"

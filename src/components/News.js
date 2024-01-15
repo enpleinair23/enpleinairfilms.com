@@ -52,43 +52,30 @@ const News = () => {
         "That's why more companies are not only reevaluating their website's design but also partnering with Kura, the web design agency that's driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
     },
     {
-      img: "assets/img/news/2.jpg",
-      tag: "Branding",
-      date: "August 9, 2021",
-      comments: "3 comments",
-      title: "Why We Should Read Fewer Books",
-      text1:
-        "Cavani is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      text2:
-        "In today's digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user's first impression relates to web design. It's also why web design services can have an immense impact on your company's bottom line.",
-      text3:
-        "That's why more companies are not only reevaluating their website's design but also partnering with Kura, the web design agency that's driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
-    },
-    {
       img: "assets/img/news/3.jpg",
       tag: "Branding",
-      date: "August 9, 2021",
+      date: "July 6, 2023",
       comments: "3 comments",
-      title: "A Final Farewell to the iPod",
+      title: "SLOW JAMS VOL.1",
       text1:
-        "Cavani is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
+        "VOLUME 1 NOW LIVE",
       text2:
-        "In today's digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user's first impression relates to web design. It's also why web design services can have an immense impact on your company's bottom line.",
+        "Featuring...",
       text3:
-        "That's why more companies are not only reevaluating their website's design but also partnering with Kura, the web design agency that's driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+        "The playlist is available across the 2 major streaming platforms:",
     },
     {
       img: "assets/img/news/4.jpg",
       tag: "Branding",
-      date: "August 9, 2021",
+      date: "June 25, 2023",
       comments: "3 comments",
-      title: "Dealing with Spring Allergy Symptoms",
+      title: "EN PLEIN AIR® - YEAR 1",
       text1:
-        "Cavani is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
+        "This is the first post on our new blog!",
       text2:
-        "In today's digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user's first impression relates to web design. It's also why web design services can have an immense impact on your company's bottom line.",
+        "There's going to be a lot of more interesting things in the future.",
       text3:
-        "That's why more companies are not only reevaluating their website's design but also partnering with Kura, the web design agency that's driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+        "So just keep posted!",
     },
   ];
 
@@ -111,36 +98,13 @@ const News = () => {
                     key={i}
                   >
                     <div className="list_inner w-full clear-both h-auto flex items-center">
-                      <span className="number w-[50px] min-w-[50px] h-[50px] text-center leading-[50px] inline-block rounded-full bg-[#b9b8c3] text-[#333] text-[16px] font-semibold font-poppins">
-                        {`${i <= 9 ? 0 : ""}${i + 1}`}
-                      </span>
-                      <div className="details relative pl-[30px] ml-[29px]">
+              
+                      <div className="relative">
                         <div className="extra_metas">
                           <ul className="flex items-center flex-wrap mb-[2px]">
                             <li className="relative mr-[10px]">
                               <span className="text-[15px] text-[#777]">
                                 {news.date}
-                              </span>
-                            </li>
-                            <li className="relative mr-[10px]">
-                              <span className="text-[15px] text-[#777] pl-[10px]">
-                                <a
-                                  className="text-[#777] transition-all duration-300 hover:text-[#000]"
-                                  href="#"
-                                  onClick={() => toggleModalFour(news)}
-                                >
-                                  Branding
-                                </a>
-                              </span>
-                            </li>
-                            <li className="relative mr-[10px]">
-                              <span className="text-[15px] text-[#777] pl-[10px]">
-                                <a
-                                  className="text-[#777] transition-all duration-300 hover:text-[#000]"
-                                  href="#"
-                                >
-                                  0 Comments
-                                </a>
                               </span>
                             </li>
                           </ul>
@@ -193,27 +157,7 @@ const News = () => {
                       <ul className="flex items-center flex-wrap mb-[2px]">
                         <li className="relative mr-[10px]">
                           <span className="text-[15px] text-[#777]">
-                            July 07, 2022
-                          </span>
-                        </li>
-                        <li className="relative mr-[10px]">
-                          <span className="text-[15px] text-[#777] pl-[10px]">
-                            <a
-                              className="text-[#777] transition-all duration-300 hover:text-[#000]"
-                              href="#"
-                            >
-                              Branding
-                            </a>
-                          </span>
-                        </li>
-                        <li className="relative mr-[10px]">
-                          <span className="text-[15px] text-[#777] pl-[10px]">
-                            <a
-                              className="text-[#777] transition-all duration-300 hover:text-[#000]"
-                              href="#"
-                            >
-                              0 Comments
-                            </a>
+                            {modalContent.date}
                           </span>
                         </li>
                       </ul>
