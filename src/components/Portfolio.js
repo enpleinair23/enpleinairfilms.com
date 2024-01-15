@@ -52,6 +52,8 @@ const Portfolio = () => {
   const [isOpen2, setIsOpen2] = useState(false);
   const [isOpen3, setIsOpen3] = useState(false);
   const [isOpen4, setIsOpen4] = useState(false);
+  const [isOpen5, setIsOpen5] = useState(false);
+  const [isOpen6, setIsOpen6] = useState(false);
 
   function toggleModalThree() {
     setIsOpen3(!isOpen3);
@@ -64,6 +66,15 @@ const Portfolio = () => {
       <ImageView />
       <ModalVideo
         channel="youtube"
+        autoplay={true}
+        isOpen={isOpen}
+        videoId="zTFCeq2H3UY"
+        animationSpeed={300}
+        onClose={() => setIsOpen(false)}
+        modalVideoClose="mfp-close"
+      />
+      <ModalVideo
+        channel="youtube"
         autoplay
         isOpen={isOpen2}
         videoId="TmwxKBkYk0I"
@@ -73,11 +84,20 @@ const Portfolio = () => {
       />
       <ModalVideo
         channel="youtube"
-        autoplay={true}
-        isOpen={isOpen}
-        videoId="zTFCeq2H3UY"
+        autoplay
+        isOpen={isOpen5}
+        videoId="AOsRcSRl_Ic"
         animationSpeed={300}
-        onClose={() => setIsOpen(false)}
+        onClose={() => setIsOpen5(false)}
+        modalVideoClose="mfp-close"
+      />
+      <ModalVideo
+        channel="youtube"
+        autoplay
+        isOpen={isOpen6}
+        videoId="TmwxKBkYk0I"
+        animationSpeed={300}
+        onClose={() => setIsOpen6(false)}
         modalVideoClose="mfp-close"
       />
       <Soundcloud isOpen3={isOpen3} toggleModalThree={toggleModalThree} />
@@ -106,16 +126,6 @@ const Portfolio = () => {
                   <a
                     href="#"
                     className="text-[#333] font-poppins font-medium transition-all duration-300"
-                    data-filter=".vimeo"
-                    onClick={handleFilterKeyChange("vimeo")}
-                  >
-                    Vimeo
-                  </a>
-                </li>
-                <li className="mr-[40px] inline-block">
-                  <a
-                    href="#"
-                    className="text-[#333] font-poppins font-medium transition-all duration-300"
                     data-filter=".youtube"
                     onClick={handleFilterKeyChange("youtube")}
                   >
@@ -126,20 +136,20 @@ const Portfolio = () => {
                   <a
                     href="#"
                     className="text-[#333] font-poppins font-medium transition-all duration-300"
-                    data-filter=".soundcloud"
-                    onClick={handleFilterKeyChange("soundcloud")}
+                    data-filter=".vimeo"
+                    onClick={handleFilterKeyChange("vimeo")}
                   >
-                    Soundcloud
+                    Brand Films
                   </a>
                 </li>
                 <li className="mr-[40px] inline-block">
                   <a
                     href="#"
                     className="text-[#333] font-poppins font-medium transition-all duration-300"
-                    data-filter=".image"
-                    onClick={handleFilterKeyChange("image")}
+                    data-filter=".soundcloud"
+                    onClick={handleFilterKeyChange("soundcloud")}
                   >
-                    Image
+                    Narrative
                   </a>
                 </li>
                 <li className="inline-block">
@@ -149,7 +159,7 @@ const Portfolio = () => {
                     data-filter=".detail"
                     onClick={handleFilterKeyChange("detail")}
                   >
-                    Detail
+                    Colour Grading
                   </a>
                 </li>
               </ul>
@@ -172,7 +182,7 @@ const Portfolio = () => {
                         <h3 className="text-[16px] mb-[2px] font-semibold">
                           Ooredoo
                         </h3>
-                        <span className="text-[14px]">Adverts</span>
+                        <span className="text-[14px]">Advert</span>
                       </div>
                       <a
                         onClick={() => setIsOpen(true)}
@@ -192,19 +202,71 @@ const Portfolio = () => {
                       />
                       <div
                         className="main absolute inset-0 bg-no-repeat bg-cover bg-center"
-                        data-img-url="assets/img/portfolio/2.jpg"
+                        data-img-url="assets/img/portfolio/baladna.jpg"
                         onClick={() => setIsOpen2(true)}
                       />
                       <div className="details">
                         <h3 className="text-[16px] mb-[2px] font-semibold">
                           Baladna
                         </h3>
-                        <span className="text-[14px]">Adverts</span>
+                        <span className="text-[14px]">Advert</span>
                       </div>
                       <a
                         className="cavani_tm_full_link popup-vimeo"
                         href="#"
                         onClick={() => setIsOpen2(true)}
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li className="vimeo mb-[50px] w-1/2 float-left pl-[50px] item__">
+                  <div className="list_inner w-full h-auto clear-both float-left relative overflow-hidden">
+                    <div className="image relative">
+                      <img
+                        className="relative opacity-0 min-w-full"
+                        src="assets/img/thumbs/1-1.jpg"
+                        alt
+                      />
+                      <div
+                        className="main absolute inset-0 bg-no-repeat bg-cover bg-center"
+                        data-img-url="assets/img/portfolio/ooredoo.jpg"
+                      />
+                      <div className="details">
+                        <h3 className="text-[16px] mb-[2px] font-semibold">
+                          Invest Qatar
+                        </h3>
+                        <span className="text-[14px]">Brand Film</span>
+                      </div>
+                      <a
+                        onClick={() => setIsOpen5(true)}
+                        className="cavani_tm_full_link popup-youtube"
+                        href="#"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li className="vimeo mb-[50px] w-1/2 float-left pl-[50px] item__">
+                  <div className="list_inner w-full h-auto clear-both float-left relative overflow-hidden">
+                    <div className="image relative">
+                      <img
+                        className="relative opacity-0 min-w-full"
+                        src="assets/img/thumbs/1-1.jpg"
+                        alt
+                      />
+                      <div
+                        className="main absolute inset-0 bg-no-repeat bg-cover bg-center"
+                        data-img-url="assets/img/portfolio/ooredoo.jpg"
+                      />
+                      <div className="details">
+                        <h3 className="text-[16px] mb-[2px] font-semibold">
+                          TASMU
+                        </h3>
+                        <span className="text-[14px]">Brand Film</span>
+                      </div>
+                      <a
+                        onClick={() => setIsOpen6(true)}
+                        className="cavani_tm_full_link popup-youtube"
+                        href="#"
                       />
                     </div>
                   </div>
@@ -223,39 +285,14 @@ const Portfolio = () => {
                       />
                       <div className="details">
                         <h3 className="text-[16px] mb-[2px] font-semibold">
-                          Ashley Flores
+                          Coming Soon
                         </h3>
-                        <span className="text-[14px]">Soundcloud</span>
+                        <span className="text-[14px]">Narrative</span>
                       </div>
                       <a
                         className="cavani_tm_full_link soundcloude_link mfp-iframe audio"
                         href="#"
                         onClick={toggleModalThree}
-                      />
-                    </div>
-                  </div>
-                </li>
-                <li className="image mb-[50px] w-1/2 float-left pl-[50px] item__">
-                  <div className="list_inner w-full h-auto clear-both float-left relative overflow-hidden">
-                    <div className="image relative">
-                      <img
-                        className="relative opacity-0 min-w-full"
-                        src="assets/img/thumbs/1-1.jpg"
-                        alt
-                      />
-                      <div
-                        className="main absolute inset-0 bg-no-repeat bg-cover bg-center"
-                        data-img-url="assets/img/portfolio/4.jpg"
-                      />
-                      <div className="details">
-                        <h3 className="text-[16px] mb-[2px] font-semibold">
-                          Alla Gorova
-                        </h3>
-                        <span className="text-[14px]">Image</span>
-                      </div>
-                      <a
-                        className="cavani_tm_full_link zoom"
-                        href="assets/img/portfolio/4.jpg"
                       />
                     </div>
                   </div>
