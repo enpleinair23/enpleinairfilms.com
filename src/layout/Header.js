@@ -19,21 +19,15 @@ const Header = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <Fragment>
-      <div className="cavani_tm_topbar fixed top-0 left-0 right-0 h-[50px] bg-white z-[15] hidden middle:block">
+      <div className="cavani_tm_topbar fixed top-0 left-0 right-0 h-[70px] bg-white z-[15] hidden middle:block">
         <div className="topbar_inner w-full h-full clear-both flex items-center justify-between py-0 px-[30px]">
-          <div className="logo" data-type="image">
-            <a className="image" href="#">
+          <div className="" data-type="image">
+            <a className="" href="#">
               <img
-                className=""
+                className="h-[50px]"
                 src="assets/img/logo/logo.png"
                 alt="image"
               />
-            </a>
-            <a
-              className="text text-black uppercase font-poppins text-[22px] font-extrabold tracking-[2px] leading-[50px]"
-              href="#"
-            >
-              <span>Cavani</span>
             </a>
           </div>
           <div className="trigger relative top-[5px]">
@@ -57,14 +51,6 @@ const Header = () => {
       >
         <div className="inner relative w-full h-full text-right px-[20px] pt-[70px] pb-[20px]">
           <div className="wrapper">
-            <div className="avatar relative float-right mb-[60px]">
-            <img
-                className=""
-                src="assets/img/logo/logo.png"
-                alt="image"
-              />
-
-            </div>
             <div className="menu_list w-full h-auto clear-both float-left mb-[50px]">
               <ul className="transition_link">
                 {navs.map((nav) => (
@@ -120,16 +106,16 @@ const Header = () => {
               </ul>
             </div>
             <div className="copyright w-full float-left">
-              <p className="text-[#333] font-poppins">Copyright © 2021</p>
+              <p className="text-[#333] font-poppins">EN PLEIN AIR® © 2021</p>
             </div>
           </div>
         </div>
       </div>
       <div className="cavani_tm_header fixed top-0 left-0 right-0 h-[70px] leading-[70px] bg-white z-[10] flex items-center justify-between py-0 px-[70px] middle:hidden">
-        <div className="logo" data-type="image">
-          <a className="image" href="#">
+        <div className="" data-type="image">
+          <a className="" href="#">
             <img
-              className=""
+              className="h-[50px]"
               src="assets/img/logo/logo.png"
               alt="image"
             />
