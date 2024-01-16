@@ -22,7 +22,7 @@ const Header = () => {
       <div className="cavani_tm_topbar fixed top-0 left-0 right-0 h-[70px] bg-white z-[15] hidden middle:block">
         <div className="topbar_inner w-full h-full clear-both flex items-center justify-between py-0 px-[30px]">
           <div className="" data-type="image">
-            <a className="" href="#">
+            <a className="" href="/">
               <img
                 className="h-[50px]"
                 src="assets/img/logo/logo.png"
@@ -113,7 +113,7 @@ const Header = () => {
       </div>
       <div className="cavani_tm_header fixed top-0 left-0 right-0 h-[70px] leading-[70px] bg-white z-[10] flex items-center justify-between py-0 px-[70px] middle:hidden">
         <div className="" data-type="image">
-          <a className="" href="#">
+          <a className="" href="/">
             <img
               className="h-[50px]"
               src="assets/img/logo/logo.png"
