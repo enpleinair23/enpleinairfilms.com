@@ -1,4 +1,19 @@
 import SectionContainer from "../layout/SectionContainer";
+import emailjs from "@emailjs/browser"
+
+const SERVICE_ID = "service_eebx214"
+const TEMPLATE_ID = "template_fxjpxc6"
+const USER_ID = "laSIuiRMlk57Snzg8"
+
+const onSubmit = e => {
+  e.preventDefault()
+  emailjs
+    .sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
+    .then(alert("Message Sent!"))
+  e.target.reset()
+}
+
+
 const Contact = () => {
   return (
     <SectionContainer navName="contact">
@@ -55,9 +70,10 @@ const Contact = () => {
               <div className="fields w-full h-auto clear-both float-left">
                 <form
                   action="/"
-                  method="post"
                   className="contact_form"
                   id="contact_form"
+                  method="POST"
+                  onSubmit={onSubmit}
                 >
                   <div
                     className="returnmessage"
@@ -72,6 +88,7 @@ const Contact = () => {
                         <input
                           id="name"
                           type="text"
+                          name="first_name"
                           placeholder="Name"
                           autoComplete="off"
                         />
@@ -80,6 +97,7 @@ const Contact = () => {
                         <input
                           id="email"
                           type="text"
+                          name="email"
                           placeholder="Email"
                           autoComplete="off"
                         />
@@ -88,16 +106,15 @@ const Contact = () => {
                   </div>
                   <div className="last">
                     <textarea
+                      name="message"
                       id="message"
                       placeholder="Message"
                       defaultValue={""}
                     />
                   </div>
-                  <div className="cavani_tm_button">
-                    <a id="send_message" href="#">
+                  <button className="bg-black hover:bg-gray-500 rounded-none focus:outline-none text-white dark:text-black font-medium py-2 px-4 mt-2" type="submit">
                       Send Message
-                    </a>
-                  </div>
+                  </button>
                   {/* If you want change mail address to yours, just open "modal" folder >> contact.php and go to line 4 and change detail to yours.  */}
                 </form>
               </div>

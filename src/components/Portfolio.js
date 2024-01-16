@@ -4,7 +4,7 @@ import { Fragment, useEffect, useRef, useState } from "react";
 import SectionContainer from "../layout/SectionContainer";
 import { dataImage } from "../utils";
 import ImageView from "./ImagePopup";
-import { Detail, Soundcloud } from "./Popup";
+import { Detail } from "./Popup";
 
 const Portfolio = () => {
   const ModalVideo = dynamic(
@@ -100,7 +100,6 @@ const Portfolio = () => {
         onClose={() => setIsOpen6(false)}
         modalVideoClose="mfp-close"
       />
-      <Soundcloud isOpen3={isOpen3} toggleModalThree={toggleModalThree} />
       <Detail isOpen4={isOpen4} toggleModalFour={toggleModalFour} />
       <SectionContainer navName="portfolio">
         <div className="section_inner">
@@ -140,16 +139,6 @@ const Portfolio = () => {
                     onClick={handleFilterKeyChange("vimeo")}
                   >
                     Brand Films
-                  </a>
-                </li>
-                <li className="mr-[40px] inline-block">
-                  <a
-                    href="#"
-                    className="text-[#333] font-poppins font-medium transition-all duration-300"
-                    data-filter=".soundcloud"
-                    onClick={handleFilterKeyChange("soundcloud")}
-                  >
-                    Narrative
                   </a>
                 </li>
                 <li className="inline-block">
@@ -207,7 +196,7 @@ const Portfolio = () => {
                       />
                       <div className="details">
                         <h3 className="text-[16px] mb-[2px] font-semibold">
-                          Baladna
+                          Baladna Milk
                         </h3>
                         <span className="text-[14px]">Advert</span>
                       </div>
@@ -271,32 +260,6 @@ const Portfolio = () => {
                     </div>
                   </div>
                 </li>
-                <li className="soundcloud mb-[50px] w-1/2 float-left pl-[50px] item__">
-                  <div className="list_inner w-full h-auto clear-both float-left relative overflow-hidden">
-                    <div className="image relative">
-                      <img
-                        className="relative opacity-0 min-w-full"
-                        src="assets/img/thumbs/1-1.jpg"
-                        alt
-                      />
-                      <div
-                        className="main absolute inset-0 bg-no-repeat bg-cover bg-center"
-                        data-img-url="assets/img/portfolio/3.jpg"
-                      />
-                      <div className="details">
-                        <h3 className="text-[16px] mb-[2px] font-semibold">
-                          Coming Soon
-                        </h3>
-                        <span className="text-[14px]">Narrative</span>
-                      </div>
-                      <a
-                        className="cavani_tm_full_link soundcloude_link mfp-iframe audio"
-                        href="#"
-                        onClick={toggleModalThree}
-                      />
-                    </div>
-                  </div>
-                </li>
                 <li className="detail mb-[50px] w-1/2 float-left pl-[50px] item__">
                   <div className="list_inner w-full h-auto clear-both float-left relative overflow-hidden">
                     <div className="image relative">
@@ -307,7 +270,7 @@ const Portfolio = () => {
                       />
                       <div
                         className="main absolute inset-0 bg-no-repeat bg-cover bg-center"
-                        data-img-url="assets/img/portfolio/6.jpg"
+                        data-img-url="assets/img/portfolio/farm.jpg"
                       />
                       <div className="details">
                         <h3 className="text-[16px] mb-[2px] font-semibold">
@@ -326,7 +289,7 @@ const Portfolio = () => {
                         <div className="main_details w-full h-auto clear-both flex mb-[60px]">
                           <div className="textbox w-[70%] pr-[40px]">
                             <p className="mb-[15px]">
-                              We live in a world where we need to move quickly
+                              GAYYYYYYWe live in a world where we need to move quickly
                               and iterate on our ideas as flexibly as possible.
                               Building mockups strikes the ideal balance ease of
                               modification. Building mockups strikes the ideal
@@ -348,7 +311,7 @@ const Portfolio = () => {
                                 <span className="first font-bold block">
                                   Client
                                 </span>
-                                <span>Alvaro Morata</span>
+                                <span>Chesapeake Farm</span>
                               </li>
                               <li className="mb-[10px] w-full float-left">
                                 <span className="first font-bold block">
@@ -356,7 +319,7 @@ const Portfolio = () => {
                                 </span>
                                 <span>
                                   <a className="text-[#7d7789]" href="#">
-                                    Detail
+                                    Colour Grading
                                   </a>
                                 </span>
                               </li>
@@ -364,7 +327,7 @@ const Portfolio = () => {
                                 <span className="first font-bold block">
                                   Date
                                 </span>
-                                <span>March 07, 2021</span>
+                                <span>March 14, 2023</span>
                               </li>
                               <li className="w-full float-left">
                                 <span className="first font-bold block">

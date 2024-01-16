@@ -67,9 +67,9 @@ export const Detail = ({ isOpen4, toggleModalFour }) => {
                 <img src="assets/img/thumbs/4-2.jpg" alt="image" />
                 <div
                   className="main"
-                  data-img-url="assets/img/portfolio/6.jpg"
+                  data-img-url="assets/img/portfolio/farm2.jpg"
                   style={{
-                    backgroundImage: 'url("assets/img/portfolio/6.jpg")',
+                    backgroundImage: 'url("assets/img/portfolio/farm2.jpg")',
                   }}
                 />
               </div>
@@ -83,7 +83,7 @@ export const Detail = ({ isOpen4, toggleModalFour }) => {
               <div className="main_details w-full h-auto clear-both flex mb-[60px]">
                 <div className="textbox w-[70%] pr-[40px]">
                   <p className="mb-[15px]">
-                    We live in a world where we need to move quickly and iterate
+                    123We live in a world where we need to move quickly and iterate
                     on our ideas as flexibly as possible. Building mockups
                     strikes the ideal balance ease of modification. Building
                     mockups strikes the ideal balance ease of modification.
@@ -101,32 +101,23 @@ export const Detail = ({ isOpen4, toggleModalFour }) => {
                   <ul>
                     <li className="mb-[10px] w-full float-left">
                       <span className="first font-bold block">Client</span>
-                      <span>Alvaro Morata</span>
+                      <span>Chesapeake Farm</span>
                     </li>
                     <li className="mb-[10px] w-full float-left">
                       <span className="first font-bold block">Category</span>
                       <span>
                         <a className="text-[#7d7789]" href="#">
-                          Detail
+                          Colour Grading
                         </a>
                       </span>
                     </li>
                     <li className="mb-[10px] w-full float-left">
                       <span className="first font-bold block">Date</span>
-                      <span>March 07, 2021</span>
+                      <span>March 14, 2023</span>
                     </li>
                     <li className="w-full float-left">
                       <span className="first font-bold block">Share</span>
                       <ul className="share relative top-[7px]">
-                        <li className="mr-[13px] inline-block">
-                          <a className="text-[#7d7789]" href="#">
-                            <img
-                              className="svg"
-                              src="assets/img/svg/social/facebook.svg"
-                              alt="image"
-                            />
-                          </a>
-                        </li>
                         <li className="mr-[13px] inline-block">
                           <a className="text-[#7d7789]" href="#">
                             <img
@@ -136,11 +127,20 @@ export const Detail = ({ isOpen4, toggleModalFour }) => {
                             />
                           </a>
                         </li>
-                        <li className="inline-block">
+                        <li className="mr-[13px] inline-block">
                           <a className="text-[#7d7789]" href="#">
                             <img
                               className="svg"
                               src="assets/img/svg/social/instagram.svg"
+                              alt="image"
+                            />
+                          </a>
+                        </li>
+                        <li className="inline-block">
+                          <a className="text-[#7d7789]" href="#">
+                            <img
+                              className="svg"
+                              src="assets/img/svg/social/youtube.svg"
                               alt="image"
                             />
                           </a>

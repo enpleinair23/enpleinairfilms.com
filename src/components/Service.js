@@ -10,7 +10,20 @@ const Service = () => {
 
   const services = [
     {
-      img: "assets/img/news/2.jpg",
+      img: "assets/img/news/editing.jpg",
+      icon: "assets/img/svg/art.svg",
+      text: "From concept to execution, we handle every aspect of video production, ensuring a seamless and professional final product",
+      date: "August 9, 2021",
+      title: "Video Production",
+      text1:
+        "Video production is a multifaceted process that involves planning, shooting, and editing to create visual content for various purposes. It encompasses a wide range of activities, from conceptualization and scripting to the final delivery of a polished video.",
+      text2:
+        "Video production begins with pre-production, where ideas are transformed into a concrete plan. This stage involves concept development, scriptwriting, storyboarding, and planning logistics such as locations, casting, and equipment.",
+      text3:
+        "Once the groundwork is laid, the production phase involves bringing the plan to life through the use of cameras, lighting, sound equipment, and other tools. This stage includes shooting interviews, capturing b-roll footage, and ensuring that the visuals align with the creative vision.",
+    },
+    {
+      img: "assets/img/news/editing.jpg",
       icon: "assets/img/svg/play.svg",
       text: "Using technical skills and creativity to transform raw footage into a compelling and professional-looking final product",
       date: "August 9, 2021",
@@ -23,7 +36,7 @@ const Service = () => {
         "Video editing is an art form that combines technical proficiency with creative expression, resulting in a polished and compelling visual piece ready for sharing on various platforms.",
     },
     {
-      img: "assets/img/news/1.jpg",
+      img: "assets/img/news/colour.jpg",
       icon: "assets/img/svg/3d.svg",
       text: "A powerful and artistic aspect of video editing that plays a pivotal role in shaping the overall visual identity of a video",
       date: "August 9, 2021",
@@ -36,30 +49,19 @@ const Service = () => {
         "Colour grading often involves working with colour wheels, curves, and sliders to fine-tune the shadows, midtones, and highlights of the video. It allows for the isolation and adjustment of specific colours within the frame, enabling editors to emphasize certain elements or create visual focal points.",
     },
     {
-      img: "assets/img/news/6.jpg",
+      img: "assets/img/news/effects.jpg",
       icon: "assets/img/svg/presentation.svg",
-      text: "Developing website involves creating your website, making it one of the most vital parts of your marketing",
+      text: "A versatile and dynamic tool that combines graphic design and animation to create engaging and visually appealing content",
       date: "August 9, 2021",
       title: "Motion Graphics",
       text1:
-        "Cavani is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
+        "Motion Graphics involves the use of digital techniques to bring static graphics, text, and images to life through movement, transitions, and effects.",
       text2:
-        "In today's digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user's first impression relates to web design. It's also why web design services can have an immense impact on your company's bottom line.",
+        "Here are key aspects and characteristics of motion graphics:",
       text3:
-        "That's why more companies are not only reevaluating their website's design but also partnering with Kura, the web design agency that's driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
-    },
-    {
-      img: "assets/img/news/5.jpg",
-      icon: "assets/img/svg/art.svg",
-      text: "Developing website involves creating your website, making it one of the most vital parts of your marketing",
-      date: "August 9, 2021",
-      title: "3D Game Art",
-      text1:
-        "Cavani is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      text2:
-        "In today's digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user's first impression relates to web design. It's also why web design services can have an immense impact on your company's bottom line.",
-      text3:
-        "That's why more companies are not only reevaluating their website's design but also partnering with Kura, the web design agency that's driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+        "Animation: Motion graphics heavily rely on animation, where various visual elements move, rotate, scale, and transform over time. This can include 2D or 3D animation, giving depth and dimension to the visuals.",
+        text4:"Graphic Design Elements: The foundation of motion graphics is built on graphic design principles. Elements such as typography, shapes, colors, and images are carefully crafted and arranged to convey a message or tell a story.",
+        text5:"Transitions and Timing: Timing is crucial in motion graphics. Smooth transitions, well-timed movements, and synchronization with audio contribute to the overall effectiveness of the piece. The pacing and rhythm of the motion help guide the viewer's attention."
     },
   ];
 
@@ -154,6 +156,8 @@ const Service = () => {
                     <p className="mb-[15px]">{modalContent.text1}</p>
                     <p className="mb-[15px]">{modalContent.text2}</p>
                     <p>{modalContent.text3}</p>
+                    <p className="mt-[15px]">{modalContent.text4}</p>
+                    <p className="mt-[15px]">{modalContent.text5}</p>
                   </div>
                 </div>
               </div>
