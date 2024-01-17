@@ -77,7 +77,7 @@ const Header = () => {
             <div className="social w-full float-left mb-[5px]">
               <ul>
                 <li className="mr-[8px] inline-block">
-                  <a className="text-[#333]" href="#">
+                  <a className="text-[#333]" target="_blank" href="https://twitter.com/enpleinairfilms">
                     <img
                       className="svg"
                       src="assets/img/svg/social/twitter.svg"
@@ -86,7 +86,7 @@ const Header = () => {
                   </a>
                 </li>
                 <li className="mr-[8px] inline-block">
-                  <a className="text-[#333]" href="#">
+                  <a className="text-[#333]" target="_blank" href="https://www.instagram.com/enpleinairuk/">
                     <img
                       className="svg"
                       src="assets/img/svg/social/instagram.svg"
@@ -95,7 +95,7 @@ const Header = () => {
                   </a>
                 </li>
                 <li className="inline-block">
-                  <a className="text-[#333]" href="#">
+                  <a className="text-[#333]" target="_blank" href="https://www.youtube.com/@ENPLEINAIRFILMS">
                     <img
                       className="svg"
                       src="assets/img/svg/social/youtube.svg"

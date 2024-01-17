@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="social">
         <ul>
           <li className="mr-[15px] inline-block">
-            <a className="text-[#333]" href="https://twitter.com/enpleinairfilms">
+            <a className="text-[#333]" target="_blank" href="https://twitter.com/enpleinairfilms">
               <img
                 className="svg inline-block"
                 src="assets/img/svg/social/twitter.svg"
@@ -16,7 +16,7 @@ const Footer = () => {
             </a>
           </li>
           <li className="mr-[15px] inline-block">
-            <a className="text-[#333]" href="https://www.instagram.com/enpleinairuk/">
+            <a className="text-[#333]" target="_blank" href="https://www.instagram.com/enpleinairuk/">
               <img
                 className="svg inline-block"
                 src="assets/img/svg/social/instagram.svg"
@@ -25,7 +25,7 @@ const Footer = () => {
             </a>
           </li>
           <li className="inline-block">
-            <a className="text-[#333]" href="https://www.youtube.com/@ENPLEINAIRFILMS">
+            <a className="text-[#333]" target="_blank" href="https://www.youtube.com/@ENPLEINAIRFILMS">
               <img
                 className="svg inline-block"
                 src="assets/img/svg/social/youtube.svg"
