@@ -289,20 +289,10 @@ const Portfolio = () => {
                         <div className="main_details w-full h-auto clear-both flex mb-[60px]">
                           <div className="textbox w-[70%] pr-[40px]">
                             <p className="mb-[15px]">
-                              GAYYYYYYWe live in a world where we need to move quickly
-                              and iterate on our ideas as flexibly as possible.
-                              Building mockups strikes the ideal balance ease of
-                              modification. Building mockups strikes the ideal
-                              balance ease of modification.
+                            This captivating endeavor takes you to the sprawling fields and rustic landscapes of a farm, where every frame is a celebration of nature's bounty and the hard work that goes into cultivating the land.
                             </p>
                             <p>
-                              Mockups are useful both for the creative phase of
-                              the project - for instance when you're trying to
-                              figure out your user flows or the proper visual
-                              hierarchy - and the production phase when they
-                              phase when they will represent the target product.
-                              Building mockups strikes the ideal balance ease of
-                              modification.
+                            The color grading in is an ode to the rich and diverse colors found in the countryside. From the golden amber of ripe wheat fields to the lush greenery of flourishing crops, each frame is meticulously treated to showcase the vibrancy and authenticity of farm life.
                             </p>
                           </div>
                           <div className="detailbox w-[30%] pl-[40px]">

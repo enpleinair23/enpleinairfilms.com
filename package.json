@@ -12,6 +12,7 @@
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
     "@next/font": "13.2.4",
+    "emailjs-com": "^3.2.0",
     "imagesloaded": "^5.0.0",
     "isotope-layout": "^3.0.6",
     "next": "13.2.4",
