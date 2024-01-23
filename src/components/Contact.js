@@ -20,7 +20,10 @@ const Contact = () => {
                     src="assets/img/svg/location.svg"
                     alt="image"
                   />
-                  <span className="block">North Street, Bristol, UK</span>
+                  <span className="block">North Street,
+                  <br/>
+                  Bristol, UK
+                  </span>
                 </div>
               </li>
               <li className="mb-[30px] w-1/3 pl-[30px]">
@@ -30,14 +33,16 @@ const Contact = () => {
                     src="assets/img/svg/mail.svg"
                     alt="image"
                   />
-                  <span className="block">
+                  <div className="">
                     <a
                       className="text-[#7d7789] transition-all duration-300 hover:text-[#333]"
                       href="#"
                     >
-                      contact@enpleinairfilms.com
+                      contact@
+                      <br/>
+                      enpleinairfilms.com
                     </a>
-                  </span>
+                  </div>
                 </div>
               </li>
               <li className="mb-[30px] w-1/3 pl-[30px]">
@@ -47,7 +52,8 @@ const Contact = () => {
                     src="assets/img/svg/call.svg"
                     alt="image"
                   />
-                  <span className="block">+44 7585 445056</span>
+                  <span className="block">07585 <br/>
+                  445056</span>
                 </div>
               </li>
             </ul>

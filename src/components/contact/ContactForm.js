@@ -47,7 +47,7 @@ const ContactForm = () => {
   <div className="fields w-full h-auto clear-both float-left">
     <form
       action="/"
-      className="contact_form"
+      className=""
       id="contact_form"
       method="POST"
       onSubmit={onSubmit}
@@ -99,10 +99,11 @@ const ContactForm = () => {
             placeholder="Message"
         />
       </div>
-      <button className="cavani_tm_button py-2 px-4 mt-2" type="submit">
+      <button className="cavani_tm_button" type="submit">
+        <a>
           Send Message
+        </a>
       </button>
-      {/* If you want change mail address to yours, just open "modal" folder >> contact.php and go to line 4 and change detail to yours.  */}
     </form>
   </div>
 </div>
@@ -114,7 +115,7 @@ const ContactForm = () => {
           width="100%"
           height={355}
           id="gmap_canvas"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.9584622064945!2d-2.6132799241384737!3d51.44055671558533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718c32fbfe1749%3A0xa3add59e9f04ba8f!2sNorth%20St%2C%20Bristol!5e0!3m2!1sen!2suk!4v1705339229446!5m2!1sen!2suk"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.9565408891713!2d-2.6048421!3d51.440591999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718c2dbb68619b%3A0xb25e32cb2c60b622!2s77%20North%20St%2C%20Bristol%20BS3%201ES!5e0!3m2!1sen!2suk!4v1706041854556!5m2!1sen!2suk"
           frameBorder={0}
           scrolling="no"
           marginHeight={0}
