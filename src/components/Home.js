@@ -31,7 +31,7 @@ const Home = () => {
         <div className="content pl-[100px]">
           <img
                 className="h-[70px]"
-                src="assets/img/logo/logo.png"
+                src="assets/img/logo/logo3.png"
                 alt="image"
               />
           <span className="line inline-block w-[70px] h-[5px] bg-[#333] mb-[30px]" />

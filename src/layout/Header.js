@@ -25,7 +25,7 @@ const Header = () => {
             <a className="" href="/">
               <img
                 className="h-[50px]"
-                src="assets/img/logo/logo.png"
+                src="assets/img/logo/logo3.png"
                 alt="image"
               />
             </a>
@@ -116,7 +116,7 @@ const Header = () => {
           <a className="" href="/">
             <img
               className="h-[50px]"
-              src="assets/img/logo/logo.png"
+              src="assets/img/logo/logo3.png"
               alt="image"
             />
           </a>
