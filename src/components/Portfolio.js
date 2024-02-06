@@ -54,6 +54,8 @@ const Portfolio = () => {
   const [isOpen4, setIsOpen4] = useState(false);
   const [isOpen5, setIsOpen5] = useState(false);
   const [isOpen6, setIsOpen6] = useState(false);
+  const [isOpen7, setIsOpen7] = useState(false);
+  const [isOpen8, setIsOpen8] = useState(false);
 
   function toggleModalThree() {
     setIsOpen3(!isOpen3);
@@ -98,6 +100,24 @@ const Portfolio = () => {
         videoId="yFdeOxwD0mI"
         animationSpeed={300}
         onClose={() => setIsOpen6(false)}
+        modalVideoClose="mfp-close"
+      />
+      <ModalVideo
+        channel="youtube"
+        autoplay
+        isOpen={isOpen7}
+        videoId="sNbY1vas3HU"
+        animationSpeed={300}
+        onClose={() => setIsOpen7(false)}
+        modalVideoClose="mfp-close"
+      />
+      <ModalVideo
+        channel="youtube"
+        autoplay
+        isOpen={isOpen8}
+        videoId="Z5F7NXgdDfI"
+        animationSpeed={300}
+        onClose={() => setIsOpen8(false)}
         modalVideoClose="mfp-close"
       />
       <Detail isOpen4={isOpen4} toggleModalFour={toggleModalFour} />
@@ -191,6 +211,32 @@ const Portfolio = () => {
                       />
                       <div
                         className="main absolute inset-0 bg-no-repeat bg-cover bg-center"
+                        data-img-url="assets/img/portfolio/ooredoo.jpg"
+                      />
+                      <div className="details">
+                        <h3 className="text-[16px] mb-[2px] font-semibold">
+                          Qatar Olympic Committee
+                        </h3>
+                        <span className="text-[14px]">Advert</span>
+                      </div>
+                      <a
+                        onClick={() => setIsOpen7(true)}
+                        className="cavani_tm_full_link popup-youtube"
+                        href="#"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li className="youtube mb-[50px] w-1/2 float-left pl-[50px] item__">
+                  <div className="list_inner w-full h-auto clear-both float-left relative overflow-hidden">
+                    <div className="image relative">
+                      <img
+                        className="relative opacity-0 min-w-full"
+                        src="assets/img/thumbs/1-1.jpg"
+                        alt
+                      />
+                      <div
+                        className="main absolute inset-0 bg-no-repeat bg-cover bg-center"
                         data-img-url="assets/img/portfolio/baladna.jpg"
                         onClick={() => setIsOpen2(true)}
                       />
@@ -254,6 +300,32 @@ const Portfolio = () => {
                       </div>
                       <a
                         onClick={() => setIsOpen6(true)}
+                        className="cavani_tm_full_link popup-youtube"
+                        href="#"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li className="vimeo mb-[50px] w-1/2 float-left pl-[50px] item__">
+                  <div className="list_inner w-full h-auto clear-both float-left relative overflow-hidden">
+                    <div className="image relative">
+                      <img
+                        className="relative opacity-0 min-w-full"
+                        src="assets/img/thumbs/1-1.jpg"
+                        alt
+                      />
+                      <div
+                        className="main absolute inset-0 bg-no-repeat bg-cover bg-center"
+                        data-img-url="assets/img/portfolio/invest.jpg"
+                      />
+                      <div className="details">
+                        <h3 className="text-[16px] mb-[2px] font-semibold">
+                          College of the North Atlantic
+                        </h3>
+                        <span className="text-[14px]">Brand Film</span>
+                      </div>
+                      <a
+                        onClick={() => setIsOpen8(true)}
                         className="cavani_tm_full_link popup-youtube"
                         href="#"
                       />
