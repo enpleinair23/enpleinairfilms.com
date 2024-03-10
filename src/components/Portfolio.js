@@ -211,7 +211,7 @@ const Portfolio = () => {
                       />
                       <div
                         className="main absolute inset-0 bg-no-repeat bg-cover bg-center"
-                        data-img-url="assets/img/portfolio/ooredoo.jpg"
+                        data-img-url="assets/img/portfolio/olympic.jpg"
                       />
                       <div className="details">
                         <h3 className="text-[16px] mb-[2px] font-semibold">
