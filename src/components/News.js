@@ -39,17 +39,17 @@ const News = () => {
   }
   const newsData = [
     {
-      img: "assets/img/news/3.jpg",
+      img: "assets/img/news/4.jpg",
       tag: "Branding",
-      date: "July 6, 2023",
+      date: "April 4, 2024",
       comments: "3 comments",
-      title: "SLOW JAMS VOL.1",
+      title: "EN PLEIN AIR® - YEAR 2",
       text1:
-        "VOLUME 1 NOW LIVE",
+        "This is the second post on our blog!",
       text2:
-        "Featuring...",
+        "There's going to be a lot of more interesting things in the future.",
       text3:
-        "The playlist is available across the 2 major streaming platforms:",
+        "So just keep posted!",
     },
     {
       img: "assets/img/news/4.jpg",

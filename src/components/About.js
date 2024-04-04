@@ -99,7 +99,7 @@ const About = () => {
                   <div className="list_inner w-full h-full clear-both float-left opacity-50 transition-all duration-300 hover:opacity-100">
                     <img
                       className="inline-block max-w-[65%] max-h-[65px]"
-                      src="assets/img/partners/2.png"
+                      src="assets/img/partners/07.png"
                       alt="image"
                     />
                     <a className="cavani_tm_full_link" href="#" />
@@ -109,7 +109,7 @@ const About = () => {
                   <div className="list_inner w-full h-full clear-both float-left opacity-50 transition-all duration-300 hover:opacity-100">
                     <img
                       className="inline-block max-w-[65%] max-h-[65px]"
-                      src="assets/img/partners/3.png"
+                      src="assets/img/partners/08.svg"
                       alt="image"
                     />
                     <a className="cavani_tm_full_link" href="#" />
