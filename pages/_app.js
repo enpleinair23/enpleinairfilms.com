@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }) {
   return (
     <CavaniState>
       <Head>
-  <link rel="icon" href="/icon.ico" />
+  <link rel="icon" href="/favicon.png" />
 </Head>
       <CavaniHead />
       <Component {...pageProps} />
