@@ -39,7 +39,7 @@ const News = () => {
   }
   const newsData = [
     {
-      img: "assets/img/news/4.jpg",
+      img: "assets/img/news/8.jpg",
       tag: "Branding",
       date: "April 4, 2024",
       comments: "3 comments",
@@ -52,10 +52,9 @@ const News = () => {
         "So just keep posted!",
     },
     {
-      img: "assets/img/news/4.jpg",
+      img: "assets/img/news/7.jpg",
       tag: "Branding",
       date: "June 25, 2023",
-      comments: "3 comments",
       title: "EN PLEIN AIR® - YEAR 1",
       text1:
         "This is the first post on our new blog!",

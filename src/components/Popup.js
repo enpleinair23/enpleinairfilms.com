@@ -83,19 +83,13 @@ export const Detail = ({ isOpen4, toggleModalFour }) => {
               <div className="main_details w-full h-auto clear-both flex mb-[60px]">
                 <div className="textbox w-[70%] pr-[40px]">
                   <p className="mb-[15px]">
-                    123We live in a world where we need to move quickly and iterate
-                    on our ideas as flexibly as possible. Building mockups
-                    strikes the ideal balance ease of modification. Building
-                    mockups strikes the ideal balance ease of modification.
+                  The concept of this color grading project is to encapsulate the breathtaking beauty and tranquility of a farm at sunrise. The goal is to enhance the natural colors present during this time, emphasizing the soft, warm hues that bathe the landscape in a soft glow. The imagery should evoke a sense of peace and serenity while highlighting the inherent charm and simplicity of farm life.
                   </p>
-                  <p>
-                    Mockups are useful both for the creative phase of the
-                    project - for instance when you're trying to figure out your
-                    user flows or the proper visual hierarchy - and the
-                    production phase when they phase when they will represent
-                    the target product. Building mockups strikes the ideal
-                    balance ease of modification.
-                  </p>
+                  <p>THE PROCESS</p>
+                  <p>1. Selecting Footage: The first step in the color grading process is selecting the right footage. High-quality footage captured during the golden hour, with its soft, diffused light, is essential to achieving the desired effect. Shots of rolling fields, grazing animals, and rustic farm structures provide the perfect canvas for our color grading endeavor.</p>
+<p>2. Establishing a Mood: Before diving into color grading, it's crucial to establish the mood and tone we want to convey. For this project, we aim to evoke feelings of warmth, nostalgia, and tranquility. By carefully selecting the right shots and framing, we set the stage for the color grading process.</p>
+<p>3. Enhancing Colors: With the mood established, it's time to enhance the colors to bring out the natural beauty of the scene. During sunrise, warm tones dominate the landscape, with hues of orange, yellow, and gold painting the sky and earth. By adjusting the color temperature, saturation, and contrast, we can intensify these warm tones, creating a vibrant and inviting atmosphere.</p>
+<p>4. Creating Depth and Dimension: Adding depth and dimension to the footage further enhances its visual appeal. By adjusting the color grading to accentuate foreground, midground, and background elements, we create a sense of depth that draws the viewer into the scene, inviting them to explore every corner of the frame.</p>
                 </div>
                 <div className="detailbox w-[30%] pl-[40px]">
                   <ul>
@@ -114,38 +108,6 @@ export const Detail = ({ isOpen4, toggleModalFour }) => {
                     <li className="mb-[10px] w-full float-left">
                       <span className="first font-bold block">Date</span>
                       <span>March 14, 2023</span>
-                    </li>
-                    <li className="w-full float-left">
-                      <span className="first font-bold block">Share</span>
-                      <ul className="share relative top-[7px]">
-                        <li className="mr-[13px] inline-block">
-                          <a className="text-[#7d7789]" href="#">
-                            <img
-                              className="svg"
-                              src="assets/img/svg/social/twitter.svg"
-                              alt="image"
-                            />
-                          </a>
-                        </li>
-                        <li className="mr-[13px] inline-block">
-                          <a className="text-[#7d7789]" href="#">
-                            <img
-                              className="svg"
-                              src="assets/img/svg/social/instagram.svg"
-                              alt="image"
-                            />
-                          </a>
-                        </li>
-                        <li className="inline-block">
-                          <a className="text-[#7d7789]" href="#">
-                            <img
-                              className="svg"
-                              src="assets/img/svg/social/youtube.svg"
-                              alt="image"
-                            />
-                          </a>
-                        </li>
-                      </ul>
                     </li>
                   </ul>
                 </div>

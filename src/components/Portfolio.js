@@ -391,40 +391,6 @@ const Portfolio = () => {
                                 </span>
                                 <span>March 14, 2023</span>
                               </li>
-                              <li className="w-full float-left">
-                                <span className="first font-bold block">
-                                  Share
-                                </span>
-                                <ul className="share relative top-[7px]">
-                                  <li className="mr-[13px] inline-block">
-                                    <a className="text-[#7d7789]" href="#">
-                                      <img
-                                        className="svg"
-                                        src="assets/img/svg/social/twitter.svg"
-                                        alt
-                                      />
-                                    </a>
-                                  </li>
-                                  <li className="inline-block">
-                                    <a className="text-[#7d7789]" href="#">
-                                      <img
-                                        className="svg"
-                                        src="assets/img/svg/social/instagram.svg"
-                                        alt
-                                      />
-                                    </a>
-                                  </li>
-                                  <li className="mr-[13px] inline-block">
-                                    <a className="text-[#7d7789]" href="#">
-                                      <img
-                                        className="svg"
-                                        src="assets/img/svg/social/youtube.svg"
-                                        alt
-                                      />
-                                    </a>
-                                  </li>
-                                </ul>
-                              </li>
                             </ul>
                           </div>
                         </div>
