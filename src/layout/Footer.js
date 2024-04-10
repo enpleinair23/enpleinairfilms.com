@@ -2,24 +2,24 @@ const Footer = () => {
   return (
     <div className="cavani_tm_footer fixed inset-x-0 bottom-0 bg-white z-[10] h-[70px] leading-[70px] flex items-center justify-between py-0 px-[70px] middle:hidden">
       <div className="copyright">
-        <p className="text-[#333] font-poppins">EN PLEIN AIR®  © 2024</p>
+        <p className="text-[#333] font-normal">© 2024 En Plein Air. All Rights Reserved.</p>
       </div>
       <div className="social">
         <ul>
-          <li className="mr-[15px] inline-block">
-            <a className="text-[#333]" target="_blank" href="https://twitter.com/enpleinairfilms">
+        <li className="mr-[15px] inline-block">
+            <a className="text-[#333]" target="_blank" href="https://www.instagram.com/enpleinairuk/">
               <img
                 className="svg inline-block"
-                src="assets/img/svg/social/twitter.svg"
+                src="assets/img/svg/social/instagram.svg"
                 alt="image"
               />
             </a>
           </li>
           <li className="mr-[15px] inline-block">
-            <a className="text-[#333]" target="_blank" href="https://www.instagram.com/enpleinairuk/">
+            <a className="text-[#333]" target="_blank" href="https://twitter.com/enpleinairfilms">
               <img
                 className="svg inline-block"
-                src="assets/img/svg/social/instagram.svg"
+                src="assets/img/svg/social/twitter.svg"
                 alt="image"
               />
             </a>

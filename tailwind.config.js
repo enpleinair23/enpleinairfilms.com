@@ -9,8 +9,9 @@ module.exports = {
       'laptop': {'max': '1390px'},
     },
     fontFamily: {
-      poppins: ['Poppins', "sans-serif"],
-      opensans: ['Open Sans', "sans-serif"],
-    },
+      roboto: ['Roboto', 'sans-serif'],
+      prata: ['Prata', 'serif'],
+      haviland: ['Mr De Haviland', 'cursive'],
+  },
   },
 }

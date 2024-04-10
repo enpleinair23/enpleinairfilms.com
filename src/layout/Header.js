@@ -65,7 +65,7 @@ const Header = () => {
                         navChange(nav.href);
                         setToggle(false);
                       }}
-                      className="text-[#333] font-poppins"
+                      className="text-[#333] font-normal"
                       href={`#${nav.href}`}
                     >
                       {nav.name}
@@ -106,7 +106,7 @@ const Header = () => {
               </ul>
             </div>
             <div className="copyright w-full float-left">
-              <p className="text-[#333] font-poppins">EN PLEIN AIR® © 2021</p>
+              <p className="text-[#333] font-normal">© 2021 EN PLEIN AIR.</p>
             </div>
           </div>
         </div>
@@ -132,7 +132,7 @@ const Header = () => {
               >
                 <a
                   onClick={() => navChange(nav.href)}
-                  className="text-[#333] font-poppins font-medium py-0 px-[30px] inline-block transition-all duration-300"
+                  className="text-[#333] font-normal py-0 px-[30px] inline-block transition-all duration-300"
                   href={`#${nav.href}`}
                 >
                   {nav.name}

@@ -95,8 +95,8 @@ const News = () => {
                             </li>
                           </ul>
                         </div>
-                        <div className="post_title">
-                          <h3 className="m-0 p-0 leading-[1] font-semibold">
+                        <div className="">
+                          <h3 className="m-0 p-0 leading-[1] font-normal">
                             <a href="#" onClick={() => toggleModalFour(news)}>
                               {news.title}
                             </a>
