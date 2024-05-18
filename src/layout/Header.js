@@ -9,7 +9,6 @@ const navs = [
   { id: 1, name: "HOME", href: "home" },
   { id: 3, name: "PORTFOLIO", href: "portfolio" },
   { id: 4, name: "SERVICES", href: "service" },
-  { id: 5, name: "BLOG", href: "news" },
   { id: 2, name: "ABOUT", href: "about" },
   { id: 6, name: "CONTACT", href: "contact" },
 ];
@@ -65,7 +64,7 @@ const Header = () => {
                         navChange(nav.href);
                         setToggle(false);
                       }}
-                      className="text-[#333] font-normal"
+                      className="text-[#333] font-bold"
                       href={`#${nav.href}`}
                     >
                       {nav.name}
@@ -132,7 +131,7 @@ const Header = () => {
               >
                 <a
                   onClick={() => navChange(nav.href)}
-                  className="text-[#333] font-normal py-0 px-[30px] inline-block transition-all duration-300"
+                  className="text-[#333] font-poppins font-bold py-0 px-[30px] inline-block transition-all duration-300"
                   href={`#${nav.href}`}
                 >
                   {nav.name}

@@ -8,7 +8,7 @@ const About = () => {
         <div className="cavani_tm_about w-full h-auto clear-both float-left">
           <div className="biography w-full h-auto clear-both float-left mb-[87px]">
             <div className="cavani_tm_title w-full h-auto clear-both float-left overflow-hidden">
-              <span className="inline-block relative font-poppins text-[#333] uppercase font-bold tracking-[8px]">
+              <span className="inline-block relative font-poppins text-[#333] uppercase font-bold">
                 About
               </span>
             </div>
@@ -29,7 +29,7 @@ const About = () => {
           </div>
           <div className="partners w-full h-auto clear-both float-left mb-[92px]">
             <div className="cavani_tm_title w-full h-auto clear-both float-left overflow-hidden">
-              <span className="inline-block relative font-poppins text-[#333] uppercase font-bold tracking-[8px]">
+              <span className="inline-block relative font-poppins text-[#333] uppercase font-bold">
                 Partners
               </span>
             </div>

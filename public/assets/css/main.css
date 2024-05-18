@@ -731,7 +731,6 @@ h6 {
   padding-top: 13px;
   padding-bottom: 13px;
   font-family: Poppins, sans-serif;
-  font-weight: 500;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
   transition-property: all;
@@ -1460,10 +1459,6 @@ h6 {
 
   .cavani_tm_section .section_inner:before {
     width: 50px;
-  }
-
-  .cavani_tm_title span {
-    letter-spacing: 7px;
   }
 
   .cavani_tm_title span:after {

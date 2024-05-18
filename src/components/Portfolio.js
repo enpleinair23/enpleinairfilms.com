@@ -125,7 +125,7 @@ const Portfolio = () => {
         <div className="section_inner">
           <div className="cavani_tm_portfolio w-full h-auto clear-both float-left mb-[70px]">
             <div className="cavani_tm_title w-full h-auto clear-both float-left overflow-hidden">
-              <span className="inline-block relative font-poppins text-[#333] uppercase font-bold tracking-[8px]">
+              <span className="inline-block relative font-poppins text-[#333] uppercase font-bold">
                 Portfolio
               </span>
             </div>
@@ -145,20 +145,20 @@ const Portfolio = () => {
                   <a
                     href="#"
                     className="text-[#333] font-poppins font-medium transition-all duration-300"
-                    data-filter=".youtube"
-                    onClick={handleFilterKeyChange("youtube")}
+                    data-filter=".vimeo"
+                    onClick={handleFilterKeyChange("vimeo")}
                   >
-                    Adverts
+                    Brand Films
                   </a>
                 </li>
                 <li className="mr-[40px] inline-block">
                   <a
                     href="#"
                     className="text-[#333] font-poppins font-medium transition-all duration-300"
-                    data-filter=".vimeo"
-                    onClick={handleFilterKeyChange("vimeo")}
+                    data-filter=".youtube"
+                    onClick={handleFilterKeyChange("youtube")}
                   >
-                    Brand Films
+                    Adverts
                   </a>
                 </li>
                 <li className="inline-block">

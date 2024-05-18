@@ -78,7 +78,7 @@ const Service = () => {
         <div className="section_inner">
           <div className="cavani_tm_service w-full h-auto clear-both float-left mb-[70px]">
             <div className="cavani_tm_title w-full h-auto clear-both float-left overflow-hidden">
-              <span className="inline-block relative font-poppins text-[#333] uppercase font-bold tracking-[8px]">
+              <span className="inline-block relative font-poppins text-[#333] uppercase font-bold">
                 Services
               </span>
             </div>

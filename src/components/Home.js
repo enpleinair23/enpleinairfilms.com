@@ -37,8 +37,8 @@ const Home = () => {
           <span className="line inline-block w-[70px] h-[5px] bg-[#333] mb-[30px]" />
           <TypingAnimation />
           <div className="cavani_tm_button transition_link">
-            <a href="#contact" onClick={() => navChange("contact")}>
-              Get in Touch
+            <a href="#contact" className="font-bold" onClick={() => navChange("contact")}>
+              GET IN TOUCH
             </a>
           </div>
         </div>
