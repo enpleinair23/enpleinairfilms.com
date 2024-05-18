@@ -56,7 +56,7 @@ const ContactForm = () => {
           className={error ? "empty_notice" : "returnmessage"}
           style={{ display: error == null ? "none" : "block" }}
         >
-          <span>
+          <span className="">
             {error
               ? "Please Fill Required Fields"
               : "Your message has been received, We will contact you soon."}
